@@ -1,5 +1,5 @@
 ### Table content
-1. [helo](#higher-order-function)
+1. [higher order function](#higher-order-function)
 2. 
 
 
@@ -32,4 +32,50 @@ even If I call "a" function, the "z" function will not be executed instantly
 
 z()
 // this is executing the returned function.
+// TIP: theory can only take you far. Test it in online javascript compiler and feel the pattern. Use practical
+```
+
+
+<br>
+<br>
+
+## Express Router
+* Express Router is a class in Express.js Framework.
+* It allows to create `modular route handlers`.
+*  It provides a way to organize different routes and their corresponding handlers into separate modules or files.
+*  This is RouterHandler FIle:
+```javascript
+const express = require('express');
+const router = express.Router();
+
+// Define routes using the router instance
+router.get('/', (req, res) => {
+  res.send('Homepage');
+});
+
+router.get('/about', (req, res) => {
+  res.send('About page');
+});
+
+// Export the router to use in other files
+module.exports = router;
+
+```
+
+* This is main.js file
+```javascript
+const express = require('express');
+const app = express();
+
+// Import the router module
+const mainRouter = require('./routes/mainRouter');
+
+// Mount the router at a specific path
+app.use('/main', mainRouter);
+
+// Start the server
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
+
 ```
