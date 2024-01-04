@@ -93,3 +93,29 @@ router.get('/protected', (req, res) => {
 });
 
 ```
+
+<br>
+<br>
+
+## Promise.prototype.catch()
+## .catch()
+* `catch()` can be confused with `try{} catch(err) {}`.
+* Both are a different. Not same.
+* SIMILARITY: is that-- they both work for `promise`.
+* This `catch()` basically calls a function when a promise is rejected.
+```javascript
+const promise1 = new Promise((resolve, reject) => {
+  throw new Error('Uh-oh!');
+});
+
+promise1.catch((error) => {
+  console.error(error);
+});
+// Expected output: Error: Uh-oh!
+```
+
+
+
+
+
+
