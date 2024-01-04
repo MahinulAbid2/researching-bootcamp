@@ -114,7 +114,54 @@ promise1.catch((error) => {
 // Expected output: Error: Uh-oh!
 ```
 
+<br>
+<br>
 
+# Understanding the Error Object
+* Error.captureStackTrace()
+
+<br>
+
+### throw new Error() breakdown
+* Error is a class which is used to store error.
+* By the keyword `new Error()` -  I'm instantiating a new class's object.
+* I already know what is instantiating a new class. But I'm re-defining it here:
+```javascript
+class Hello {
+    constructor(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+    
+    print() {
+        console.log(`${this.firstName} and ${this.lastName}`);
+    }
+}
+
+// this is instantiating a new class
+// means creating a new object from the class Prototype
+const helloObject = new Hello("john", "smith");
+// now "helloObject" is an OBJECT instantiated from "Hello" class
+
+// instantiating means creating object from a class
+console.log(helloObject)
+```
+<br>
+
+* Just like that, `Error` is also a class. I'm instantiating it
+```javascript
+class Error {
+class Error {
+    constructor(message) {
+        this.message = message;
+    }
+    // this is an error object
+}
+
+
+const x = new Error('Something went wrong');
+```
+> This is exactly how Error looks like.
 
 
 
