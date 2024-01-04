@@ -115,14 +115,8 @@ promise1.catch((error) => {
 ```
 
 <br>
-<br>
 
-# Understanding the Error Object
-* Error.captureStackTrace()
-
-<br>
-
-### throw new Error() breakdown
+# throw new Error() breakdown
 * Error is a class which is used to store error.
 * By the keyword `new Error()` -  I'm instantiating a new class's object.
 * I already know what is instantiating a new class. But I'm re-defining it here:
@@ -151,7 +145,6 @@ console.log(helloObject)
 * Just like that, `Error` is also a class. I'm instantiating it
 ```javascript
 class Error {
-class Error {
     constructor(message) {
         this.message = message;
     }
@@ -161,7 +154,36 @@ class Error {
 
 const x = new Error('Something went wrong');
 ```
-> This is exactly how Error looks like.
+> This is exactly how Error looks like. I learned about the error but I never knew how it works behind the scene.
+
+* `throw` is nothing but a keyword that throws something at `console`.
+* And the `console` thinks it's an error. No matter what you throw at it.
+```javascript
+
+
+throw "hello"
+
+/*
+EXPECTED OUTPUT:
+----------------------------------
+throw "hello"
+^
+hello 
+(Use `node --trace-uncaught ...` to show where the exception was thrown)
+*/
+```
+* So, the console thinks its an error. Meanwhile I just threw just a string. Nothing else.
+* I can use `thow` keyword with any data type including `Object`. It simply will throw something at console.
+* `throw new Error("error message")` - I'm instantiating a new Error Object from `Error` class and `throw`ing them in the console at the same time. 
+
+<br>
+
+# Understanding the Error Object
+* Error.captureStackTrace()
+
+<br>
+
+
 
 
 
