@@ -79,3 +79,17 @@ app.listen(3000, () => {
 });
 
 ```
+
+* Setting up middleware in router
+```javascript
+// Middleware specific to the router
+router.use((req, res, next) => {
+  console.log('Router-specific middleware');
+  next();
+});
+
+router.get('/protected', (req, res) => {
+  res.send('Protected route');
+});
+
+```
