@@ -281,6 +281,10 @@ or encoding potentially dangerous characters and scripts from user input.
 <br>
 
 ### What is `cookie-parser`?
+```
+- Cookie parser is a software library used in web development that
+  helps to parse ( parsing means to analyze or break up something ) and extract cookie data from HTTP requests
+```
 
 
 
