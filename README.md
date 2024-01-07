@@ -1,4 +1,4 @@
-![image](https://github.com/MahinulAbid2/researching-bootcamp/assets/70069009/7e4e4e51-92be-41e5-8b20-8c2c06a606c9)### Table content
+### Table content
 1. [higher order function](#higher-order-function)
 2. [express router](#express-router)
 3. [Catch without try](#Catch-without-try)
