@@ -1,6 +1,10 @@
 ### Table content
 1. [higher order function](#higher-order-function)
 2. [express router](#express-router)
+3. [Catch without try](#Catch-without-try)
+4. [throw new Error() breakdown](#throw-new-Error()-breakdown)
+5. [Understanding the Error Object](#Understanding-the-Error-Object)
+6. [Node.js package research](#Node.js-package-research)
 
 
 
@@ -97,8 +101,8 @@ router.get('/protected', (req, res) => {
 <br>
 <br>
 
-## Promise.prototype.catch()
-## .catch()
+## Catch without try
+## .catch() /Promise.prototype.catch()
 * `catch()` can be confused with `try{} catch(err) {}`.
 * Both are a different. Not same.
 * SIMILARITY: is that-- they both work for `promise`.
@@ -182,6 +186,9 @@ hello
 * Error.captureStackTrace()
 
 <br>
+<br>
+
+# Node.js package research
 
 
 
