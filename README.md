@@ -286,6 +286,12 @@ or encoding potentially dangerous characters and scripts from user input.
   helps to parse ( parsing means to analyze or break up something ) and extract cookie data from HTTP requests
 ```
 
+<br>
+
+### What is `crypto`?
+```
+- Crypto is a node.js "built-in" module.
+```
 
 
 
