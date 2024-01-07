@@ -2,9 +2,9 @@
 1. [higher order function](#higher-order-function)
 2. [express router](#express-router)
 3. [Catch without try](#Catch-without-try)
-4. [throw new Error() breakdown](#throw-new-Error()-breakdown)
+4. [throw new Error() breakdown](#throw-new-Error-breakdown)
 5. [Understanding the Error Object](#Understanding-the-Error-Object)
-6. [Node.js package research](#Node.js-package-research)
+6. [Node.js package research](#Nodejs-package-research)
 
 
 
