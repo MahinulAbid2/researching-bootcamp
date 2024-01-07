@@ -210,6 +210,36 @@ hello
   same time.
 ```
 
+<br>
+
+### What is `helmet`?
+```
+- Helmet can help protect your app from some well-known web vulnerabilities by
+  setting HTTP headers appropriately.
+- Generally, Helmet is just a collection of smaller middleware functions
+  that set security-related HTTP headers
+- If you use middleware like helmet or cors after you define a route,
+  then that middleware will not apply to that route, it will only apply to routes defined
+  after the middleware.
+```
+
+<br>
+
+### What is `express-mongo-sanitize`?
+```
+- Express Mongo Sanitize is a package that provides middleware to sanitize "user-input"
+  before it is used in a database query. It is designed specifically to prevent NoSQL
+  injection attacks in Node. js applications that use MongoDB.
+```
+
+<br>
+
+### What is `xss-clean`?
+```
+
+```
+
+
 
 
 
