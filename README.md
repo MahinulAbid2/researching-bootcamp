@@ -250,6 +250,38 @@ or encoding potentially dangerous characters and scripts from user input.
 ![image](https://github.com/MahinulAbid2/researching-bootcamp/assets/70069009/e11ac746-8ebf-4413-8997-58fd785af22e)
 ![image](https://github.com/MahinulAbid2/researching-bootcamp/assets/70069009/a6011ab5-ca02-4689-bf1a-aa616b6a4356)
 
+<br>
+
+### What is `compression`?
+```
+- It compress user uploaded files like images from "req" object.
+```
+
+<br>
+
+### What is `cors`?
+```
+- CORS in node. js stands for Cross-Origin Resource Sharing. It is a mechanism by
+  which resources are shared across different servers.
+- Single-origin policy is important for safety however, blocks external requests.
+- We need CORS to bypass this feature.
+```
+
+<br>
+
+### What is `body-parser`?
+```
+- Body parser middleware is an essential component in Express applications.
+- It processes incoming request bodies, making it easier to handle POST and PUT requests.
+- By parsing the body of an HTTP request and attaching it to the `req.body` property,
+  it simplifies data extraction and manipulation in server-side logic
+- According to chatGPT body-parser can also process and simplify "multi-part" form data.
+```
+
+<br>
+
+### What is `cookie-parser`?
+
 
 
 
