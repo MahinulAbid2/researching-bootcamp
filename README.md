@@ -236,8 +236,46 @@ hello
 
 ### What is `xss-clean`?
 ```
+The “xss-clean” library helps prevent XSS attacks by removing
+or encoding potentially dangerous characters and scripts from user input.
+```
+
+<br>
+
+### What is `hpp`?
+```
+- hpp = http parameter pollution
 
 ```
+![image](https://github.com/MahinulAbid2/researching-bootcamp/assets/70069009/e11ac746-8ebf-4413-8997-58fd785af22e)
+![image](https://github.com/MahinulAbid2/researching-bootcamp/assets/70069009/a6011ab5-ca02-4689-bf1a-aa616b6a4356)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
