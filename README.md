@@ -1,4 +1,4 @@
-### Table content
+![image](https://github.com/MahinulAbid2/researching-bootcamp/assets/70069009/7e4e4e51-92be-41e5-8b20-8c2c06a606c9)### Table content
 1. [higher order function](#higher-order-function)
 2. [express router](#express-router)
 3. [Catch without try](#Catch-without-try)
@@ -189,6 +189,26 @@ hello
 <br>
 
 # Node.js package research
+What is `morgan`?
+```
+- Morgan is a node package manager.
+- Morgan is a logging tool (middleware) that can be used in HTTP servers implemented using Express & Node.js.
+- It can be used to log requests, errors, and more to the console.
+
+- It logs information in the console to make development easier.
+- This makes development easier. Easy to implement.
+```
+![image](https://github.com/MahinulAbid2/researching-bootcamp/assets/70069009/e002641a-3c4a-433b-9499-1e5d4f239a69)
+
+<br>
+
+What is `express-rate-limit`?
+```
+-Rate limiting prevents the same IP address from making too many requests that
+ will help us prevent attacks like brute force.
+- It blocks if same IP is making many request at the
+  same time.
+```
 
 
 
