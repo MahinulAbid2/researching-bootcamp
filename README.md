@@ -292,11 +292,21 @@ or encoding potentially dangerous characters and scripts from user input.
 ```
 - Crypto is a node.js "built-in" module.
 ```
+<br>
+
+### What is `ndb`?
+```
+- ndb is a debugging tool that uses browser's "some sort of engine"
+- it is useful for API debugging 
+```
 
 
 
+<br>
 
-
+* An arrow function always refers to "this"
+* In a regular JavaScript function, the "this" value (aka the execution context) is dynamic
+* An arrow function implicitly returns a value if You exclude the curly braces ({})
 
 
 
